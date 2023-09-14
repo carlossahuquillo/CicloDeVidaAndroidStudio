@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                String texto = String.valueOf(txtEscribirMain.getText());
+                String texto = txtEscribirMain.getText().toString();
 
                 Toast.makeText(MainActivity.this, texto, Toast.LENGTH_LONG).show();
 
